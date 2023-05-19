@@ -3,23 +3,37 @@
 
 <b>Popular Global News UIKit kullanılarak oluşturulmuş, New York Times'ın API'sinde sunulan popüler haberleri çekerek kullanıcıya gösteren bir mobil uygulamadır.</b>
 <p align="center">
-<img src="takeaseatsources/takeaseatlogofinal.png"  width="250" height="250">
+<img src="readmeSources/popularNewsPoster.png" width="750" height="250">
 </p>
 <p align="center">
-<img src="takeaseatsources/takeaseatAppName.png" width="250" height="80">
+<img src="readmeSources/appIcon.png"  width="250" height="250">
+</p>
+
 </p>
 
 
 ## Uygulamanın Amacı
-Bu uygulamanın amacı kullanıcının kalkış ve varış noktasını seçip, kendine uygun seferi bulup, o seferde maksimim 5 adet olacak şekilde koltuk seçebildiği ve bu girdiler doğrultunda belirli sefer için bilet oluşturabilmektir. Ardından bu bileti bilet geçmişi sayfasında görüntüleyebilmektir.
+◉ Bu uygulamanın amacı belirlenen New York Times Api'sini çekip, Api'de yer alan haberleri küçük resim, başlık ve açıklama olarak liste şeklinde ana sayfada göstermektir. 
+<p>
+◉ Ana sayfada bulunan liste, ekranın rotate'i değiştiği zaman UI olarak kendini uygun şekilde güncellemelidir.
+</p>
+◉ Kullanıcı bir habere bastığı zaman o haberin detay ekranına gidecektir. Detay ekranında haber içerikleriyle beraber o haberi web sitesinde açabilen bir buton yer almaktadır.
+</p>
+◉ "See in web" butonuna basarak seçili haber web sitesinde görüntülenmektedir. Bu web sitesi uygulamadan çıkılmadan uygulama içerisinde görüntülenmektedir.
+</p>
+◉ Modülerliği sağlamak adına Generic olarak oluşturduğum Web Paketi olan <b>AhmertNetworkManager</b> projede kullanılarak <b>SPM</b> ile projeye dahil edilmiştir.
+
+
 <ul>
 <li> Storyboard kullanılmıştır.</br></li>
-<li> Oluşturulan bilet cihaza local şekilde kaydedilmektedir. </li>
-<li> ALBusSeat ile koltuk seçme işlemi gerçekleştirilmiştir.</br></li>
+<li> URLSession ile oluşturduğum AhmertNetworkManager Package'i kullanılmıştır. </li>
+<li> Tüm UI'lar cihaz rotationuna göre güncellenmektedir.</br></li>
+<li> SW_WebImage kullanılarak görseller çekilmiştir.</br></li>
+
 
 </ul>
 <p align="center">
-<img src="takeaseatsources/takeaseatAppFlow.gif" width="250" height="550">
+<img src="readmeSources/appFlow.gif" width="550" height="550">
 </p>
 
 
@@ -30,16 +44,13 @@ Bu uygulamanın amacı kullanıcının kalkış ve varış noktasını seçip, k
 
 
 
-
-
-
-
 ## Nasıl Kurulur?
-Projeyi Xcode ile clone ettikten sonra, proje klasöründe "pod install" komutunu terminal üzerinde çalıştırdıktan sonra .xcworkspace dosyası ile projeyi açabilirsiniz.
+Projeyi Xcode ile clone ettikten sonra .xcodeproj dosyası ile projeyi açabilirsiniz.
  
 # 💻 Teknolojiler 
 - Swift
-- ALBusSeatView
+- AhmertNetworkManager
+- SD_WebImage
 
 
 
