@@ -11,10 +11,10 @@ import SDWebImage
 class NewsCollectionViewCell: UICollectionViewCell {
     
     
-    @IBOutlet var newsImageView: UIImageView!
-    @IBOutlet var newsTitle: UILabel!
-    @IBOutlet var newsDescription: UILabel!
-    @IBOutlet var newsDate: UILabel!
+    @IBOutlet private var newsImageView: UIImageView!
+    @IBOutlet private var newsTitle: UILabel!
+    @IBOutlet private var newsDescription: UILabel!
+    @IBOutlet private var newsDate: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
