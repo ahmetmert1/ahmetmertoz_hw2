@@ -78,7 +78,6 @@
 		C4EB092E2A116E0D0017D240 /* ahmetmert_hw2 */ = {
 			isa = PBXGroup;
 			children = (
-				C4EB09592A117A760017D240 /* Models */,
 				C4EB09432A116E180017D240 /* App */,
 				C4EB094C2A1178B80017D240 /* Helpers */,
 				C4EB09492A1176A70017D240 /* NetworkLayer */,
@@ -159,13 +158,6 @@
 				C4EB09572A117A0A0017D240 /* HomeManager.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		C4EB09592A117A760017D240 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		C4EB095C2A1191650017D240 /* NewsCell */ = {
