@@ -37,10 +37,16 @@
                                 <color key="textColor" red="0.070897303450000004" green="0.1349868216" blue="0.18187736739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5zL-RE-aXc">
-                                <rect key="frame" x="195" y="39.333333333333343" width="349" height="15.666666666666657"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5zL-RE-aXc">
+                                <rect key="frame" x="195" y="39.333333333333336" width="349" height="15.666666666666664"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0t-Oz-yaK">
+                                <rect key="frame" x="195" y="158.66666666666666" width="25.333333333333343" height="14.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -51,8 +57,10 @@
                             <constraint firstAttribute="trailing" secondItem="cfh-TI-zkj" secondAttribute="trailing" constant="8" id="946-dH-esv"/>
                             <constraint firstAttribute="bottom" secondItem="K1W-Qs-h8a" secondAttribute="bottom" constant="8" id="Baa-Ix-F2d"/>
                             <constraint firstItem="cfh-TI-zkj" firstAttribute="top" secondItem="cb6-3U-ops" secondAttribute="top" constant="8" id="BmS-8W-Q9R"/>
+                            <constraint firstItem="d0t-Oz-yaK" firstAttribute="leading" secondItem="K1W-Qs-h8a" secondAttribute="trailing" constant="8" symbolic="YES" id="XFk-p6-eaD"/>
                             <constraint firstItem="cfh-TI-zkj" firstAttribute="leading" secondItem="K1W-Qs-h8a" secondAttribute="trailing" constant="8" id="Zlo-5X-SxE"/>
                             <constraint firstItem="5zL-RE-aXc" firstAttribute="top" secondItem="cfh-TI-zkj" secondAttribute="bottom" constant="12" id="dQZ-Ib-GTD"/>
+                            <constraint firstAttribute="bottom" secondItem="d0t-Oz-yaK" secondAttribute="bottom" constant="8" id="gt9-r0-0gO"/>
                             <constraint firstItem="K1W-Qs-h8a" firstAttribute="leading" secondItem="cb6-3U-ops" secondAttribute="leading" constant="8" id="kDr-ku-WXl"/>
                             <constraint firstAttribute="trailing" secondItem="5zL-RE-aXc" secondAttribute="trailing" constant="8" id="qD9-d0-orp"/>
                         </constraints>
@@ -73,6 +81,7 @@
             </constraints>
             <size key="customSize" width="552" height="181"/>
             <connections>
+                <outlet property="newsDate" destination="d0t-Oz-yaK" id="J9b-pC-wCb"/>
                 <outlet property="newsDescription" destination="5zL-RE-aXc" id="oe2-tE-C3Y"/>
                 <outlet property="newsImageView" destination="K1W-Qs-h8a" id="RI6-Uj-rZ0"/>
                 <outlet property="newsTitle" destination="cfh-TI-zkj" id="zbp-UO-4Wu"/>

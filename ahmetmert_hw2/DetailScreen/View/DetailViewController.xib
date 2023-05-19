@@ -60,10 +60,10 @@
                     <rect key="frame" x="16" y="117" width="361" height="735"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XBt-uM-vYU">
-                            <rect key="frame" x="0.0" y="0.0" width="361" height="222"/>
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="280.33333333333331"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="97z-Oq-3m1">
-                                    <rect key="frame" x="0.0" y="0.0" width="361" height="222"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="361" height="280.33333333333331"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rlj-vw-dbp">
                                             <rect key="frame" x="0.0" y="0.0" width="361" height="180"/>
@@ -78,13 +78,16 @@
                                             </userDefinedRuntimeAttributes>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="207-dY-PBL">
-                                            <rect key="frame" x="0.0" y="180" width="361" height="21.666666666666657"/>
+                                            <rect key="frame" x="0.0" y="180" width="361" height="80"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="80" id="MNB-OO-cTA"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4o-F8-dvE">
-                                            <rect key="frame" x="0.0" y="201.66666666666669" width="361" height="20.333333333333343"/>
+                                            <rect key="frame" x="0.0" y="260" width="361" height="20.333333333333314"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -92,7 +95,6 @@
                                     </subviews>
                                 </stackView>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemGreenColor"/>
                             <constraints>
                                 <constraint firstItem="97z-Oq-3m1" firstAttribute="leading" secondItem="XBt-uM-vYU" secondAttribute="leading" id="RRN-Pv-OLa"/>
                                 <constraint firstItem="97z-Oq-3m1" firstAttribute="top" secondItem="XBt-uM-vYU" secondAttribute="top" id="TEj-QH-ln0"/>
@@ -101,7 +103,6 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemTealColor"/>
                     <constraints>
                         <constraint firstItem="XBt-uM-vYU" firstAttribute="width" secondItem="3BF-UK-n97" secondAttribute="width" id="HQx-Zh-LIU"/>
                         <constraint firstAttribute="bottom" secondItem="XBt-uM-vYU" secondAttribute="bottom" id="Yd9-it-qzG"/>
@@ -150,12 +151,6 @@
     </objects>
     <resources>
         <image name="chevron.left" catalog="system" width="97" height="128"/>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

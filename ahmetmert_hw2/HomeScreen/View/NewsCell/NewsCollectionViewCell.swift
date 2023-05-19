@@ -14,7 +14,7 @@ class NewsCollectionViewCell: UICollectionViewCell {
     @IBOutlet var newsImageView: UIImageView!
     @IBOutlet var newsTitle: UILabel!
     @IBOutlet var newsDescription: UILabel!
-    
+    @IBOutlet var newsDate: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,6 +25,8 @@ class NewsCollectionViewCell: UICollectionViewCell {
         newsImageView.sd_setImage(with: URL(string: model.multimedia?.first?.url ?? ""), placeholderImage: UIImage(named: "loadingImage"))
         newsTitle.text = model.title
         newsDescription.text = model.abstract
+        newsDate.text = "Section : \(String(describing: model.section?.capitalized ?? "Unknown"))"
+        
     }
 
 }
