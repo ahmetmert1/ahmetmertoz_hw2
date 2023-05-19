@@ -28,5 +28,4 @@ class NewsCollectionViewCell: UICollectionViewCell {
         newsDate.text = "Section : \(String(describing: model.section?.capitalized ?? "Unknown"))"
         
     }
-
 }

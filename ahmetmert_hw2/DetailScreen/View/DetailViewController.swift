@@ -16,6 +16,8 @@ class DetailViewController: UIViewController {
     @IBOutlet var newsTitle: UILabel!
     @IBOutlet var newsDescription: UILabel!
     @IBOutlet var seeInWebButton: UIButton!
+    @IBOutlet var newsDate: UILabel!
+    @IBOutlet var newsSource: UILabel!
     
     var newsModel : ResultNews? = nil
     
@@ -25,7 +27,8 @@ class DetailViewController: UIViewController {
         newsImageView.sd_setImage(with: URL(string: newsModel?.multimedia?[0].url ?? ""),placeholderImage: UIImage(named: "loadingImage")?.withTintColor(.black))
         newsTitle.text = newsModel?.title
         newsDescription.text = newsModel?.abstract
-        
+        newsDate.text = formatDate(dateString: newsModel?.published_date ?? "2000-01-01T12:00:20-05:00")
+        newsSource.text = newsModel?.multimedia?.first?.copyright
     }
 
     

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4E850322A1660A600E124F9 /* AhmertNetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = C4E850312A1660A600E124F9 /* AhmertNetworkManager */; };
+		C4E850362A17801600E124F9 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E850352A17801600E124F9 /* DateFormat.swift */; };
 		C4EB09302A116E0D0017D240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB092F2A116E0D0017D240 /* AppDelegate.swift */; };
 		C4EB09322A116E0D0017D240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB09312A116E0D0017D240 /* SceneDelegate.swift */; };
 		C4EB09392A116E0E0017D240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EB09382A116E0E0017D240 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4E850352A17801600E124F9 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		C4EB092C2A116E0D0017D240 /* ahmetmert_hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ahmetmert_hw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB092F2A116E0D0017D240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EB09312A116E0D0017D240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				C4EB094D2A1178C10017D240 /* Constants.swift */,
+				C4E850352A17801600E124F9 /* DateFormat.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				C4EB095B2A117A860017D240 /* HomeModel.swift in Sources */,
 				C4EB094B2A1176B70017D240 /* NetworkManager.swift in Sources */,
 				C4EB09552A1179B00017D240 /* HomeViewModel.swift in Sources */,
+				C4E850362A17801600E124F9 /* DateFormat.swift in Sources */,
 				C4EB09302A116E0D0017D240 /* AppDelegate.swift in Sources */,
 				C4EB096D2A119C710017D240 /* DetailViewModel.swift in Sources */,
 				C4EB09322A116E0D0017D240 /* SceneDelegate.swift in Sources */,
