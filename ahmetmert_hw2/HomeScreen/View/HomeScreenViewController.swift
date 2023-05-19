@@ -12,9 +12,8 @@ class HomeScreenViewController: UIViewController {
 
     let viewModel = HomeViewModel()
     
-    @IBOutlet var newsCollectionView: UICollectionView!
-    
-    @IBOutlet var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet private var newsCollectionView: UICollectionView!
+    @IBOutlet private var activityIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,31 +46,19 @@ class HomeScreenViewController: UIViewController {
         }
     }
     
-    
     public override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
         if UIDevice.current.orientation.isLandscape,
             let layout = newsCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
-//            let width = view.frame.height
-//            layout.itemSize = CGSize(width: width, height: UIScreen.main.bounds.width)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2){
                 layout.invalidateLayout()
             }        } else if UIDevice.current.orientation.isPortrait,
             let layout = newsCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
-//            let width = view.frame.width
-//            layout.itemSize = CGSize(width: width , height:  UIScreen.main.bounds.height)
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2){
                 layout.invalidateLayout()
             }
         }
     }
     
-
-    
-  
-
-  
-
-
 }
 
 
@@ -82,7 +69,6 @@ extension HomeScreenViewController : UICollectionViewDelegate, UICollectionViewD
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
         
         let cell = newsCollectionView.dequeueReusableCell(withReuseIdentifier: "NewsCollectionViewCell", for: indexPath) as! NewsCollectionViewCell
         

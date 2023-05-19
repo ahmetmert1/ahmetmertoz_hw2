@@ -12,7 +12,6 @@ class HomeViewModel {
     
     var result : Welcome?
     
-    
     func getHomeItems(complete : @escaping((String?)->())){
         
         HomeManager.shared.getHomeItems { welcomeItem, errorMessage in
@@ -22,9 +21,6 @@ class HomeViewModel {
             }
             
             complete(errorMessage)
-            
         }
     }
-    
-    
 }

@@ -28,11 +28,6 @@ struct ResultNews : Codable {
     let short_url: String?
 }
 
-//enum ItemType : Codable  {
-//    case article
-//    case interactive
-//}
-
 // MARK: - Multimedia
 struct Multimedia : Codable {
     let url: String?
@@ -43,16 +38,3 @@ struct Multimedia : Codable {
     let caption, copyright: String?
 }
 
-//enum Format : Codable {
-//    case largeThumbnail
-//    case superJumbo
-//    case threeByTwoSmallAt2X
-//}
-//
-//enum Subtype : Codable {
-//    case photo
-//}
-//
-//enum TypeEnum : Codable {
-//    case image
-//}
