@@ -24,6 +24,8 @@
 ◉ Modülerliği sağlamak adına Generic olarak oluşturduğum Web Paketi olan <b>AhmertNetworkManager</b> projede kullanılarak <b>SPM</b> ile projeye dahil edilmiştir.
 
 
+
+
 ## AhmertNetworkManager 
 Projede servis istekleri için URLSession ile oluşturmuş olduğum <b>AhmertNetworkManager</b> paketine <a href="https://github.com/ahmetmert1/AhmertNetworkManager">BURADAN</a> ulaşabilirsiniz
 </p>
@@ -33,11 +35,13 @@ Projede servis istekleri için URLSession ile oluşturmuş olduğum <b>AhmertNet
 
 <ul>
 <li> Storyboard kullanılmıştır.</br></li>
+<li> MVVM mimarisi ile geliştirilmiştir.</br></li>
 <li> URLSession ile oluşturduğum AhmertNetworkManager Package'i kullanılmıştır. </li>
 <li> Tüm UI'lar cihaz rotationuna göre güncellenmektedir.</br></li>
 <li> SW_WebImage kullanılarak görseller çekilmiştir.</br></li>
 <li> Uygulamadan çıkılmadan Web sayfası açılmaktadır.</br></li>
 <li> Proje iOS 13 ve üzerinde çalışmaktadır.</br></li>
+
 
 
 </ul>
@@ -60,6 +64,7 @@ Projeyi Xcode ile clone ettikten sonra .xcodeproj dosyası ile projeyi açabilir
 - Swift
 - AhmertNetworkManager
 - SD_WebImage
+- MVVM Architecture
 - SafariServices
 
 
