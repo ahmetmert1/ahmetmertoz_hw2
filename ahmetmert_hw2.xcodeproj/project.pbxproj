@@ -172,8 +172,6 @@
 		C4EB09642A119B8C0017D240 /* DetailScreen */ = {
 			isa = PBXGroup;
 			children = (
-				C4EB09672A119BA90017D240 /* ViewModel */,
-				C4EB09662A119BA40017D240 /* Model */,
 				C4EB09652A119B9F0017D240 /* View */,
 			);
 			path = DetailScreen;
@@ -186,20 +184,6 @@
 				C4EB09692A119C5A0017D240 /* DetailViewController.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		C4EB09662A119BA40017D240 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C4EB09672A119BA90017D240 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
