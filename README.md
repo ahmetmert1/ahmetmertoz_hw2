@@ -36,6 +36,7 @@ Projede servis istekleri için URLSession ile oluşturmuş olduğum <b>AhmertNet
 <li> URLSession ile oluşturduğum AhmertNetworkManager Package'i kullanılmıştır. </li>
 <li> Tüm UI'lar cihaz rotationuna göre güncellenmektedir.</br></li>
 <li> SW_WebImage kullanılarak görseller çekilmiştir.</br></li>
+<li> Uygulamadan çıkılmadan Web sayfası açılmaktadır.</br></li>
 <li> Proje iOS 13 ve üzerinde çalışmaktadır.</br></li>
 
 
@@ -46,7 +47,7 @@ Projede servis istekleri için URLSession ile oluşturmuş olduğum <b>AhmertNet
 
 
 <p align="center">
-<img src="takeaseatsources/screen1.png" width="250" height="550"> <img src="takeaseatsources/screen2.png" width="250" height="550"> <img src="takeaseatsources/screen3.png" width="250" height="550">
+<img src="readmeSources/resim1.png" width="250" height="550"> <img src="readmeSources/resim2.png" width="250" height="550"> <img src="readmeSources/resim3.png" width="250" height="550">
 </p>
 
 
@@ -59,6 +60,7 @@ Projeyi Xcode ile clone ettikten sonra .xcodeproj dosyası ile projeyi açabilir
 - Swift
 - AhmertNetworkManager
 - SD_WebImage
+- SafariServices
 
 
 
