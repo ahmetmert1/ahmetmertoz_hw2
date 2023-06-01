@@ -12,6 +12,7 @@
 </p>
 
 
+
 ## Uygulamanın Amacı
 ◉ Bu uygulamanın amacı belirlenen <b>dictionaryapi.dev</b> ve <b>datamuse</b> Api'lerini çekip, Api'de araması yapılan kelimenin var eş anlamlılarını ve aranan kelimenin, "noun", "verb" gibi özelliklerinin görüntülenmesini sağlayıp, varsa o anlamla ilgili bir örnek listelemektir.
 <p>
@@ -43,6 +44,7 @@ Projede servis istekleri için URLSession ile oluşturmuş olduğum <b>AhmertNet
 <li> AVFoundation ile ses oynatımı yapılmıştır.</br></li>
 <li> CoreData ile kullanıcının aramaları kaydedilmektedir.</br></li>
 <li> Proje iOS 13 ve üzerinde çalışmaktadır.</br></li>
+
 
 
 
