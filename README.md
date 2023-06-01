@@ -14,15 +14,13 @@
 
 
 ## Uygulamanın Amacı
-◉ Bu uygulamanın amacı belirlenen <b>dictionaryapi.dev</b> ve <b>datamuse</b> Api'lerini çekip, Api'de araması yapılan kelimenin var eş anlamlılarını ve aranan kelimenin, "noun", "verb" gibi özelliklerinin görüntülenmesini sağlayıp, varsa o anlamla ilgili bir örnek listelemektir.
+◉ Bu uygulamanın amacı belirlenen New York Times Api'sini çekip, Api'de yer alan haberleri küçük resim, başlık ve açıklama olarak liste şeklinde ana sayfada göstermektir. 
 <p>
-◉ Ana sayfada bulunan liste, yapılmış son 5 aramayı göstermektedir.
+◉ Ana sayfada bulunan liste, ekranın rotate'i değiştiği zaman UI olarak kendini uygun şekilde güncellemelidir.
 </p>
-◉ Kullanıcı bir kelimeyi aradığı zaman ya da geçmiş aradığı kelimeye bastığı zaman o kelimenin detay ekranına gidecektir.. Detay ekranında kelimenin bilgileriyle beraber belirli bilgileriyle oluşturulmuş olan örnekler gösterilmektedir.
+◉ Kullanıcı bir habere bastığı zaman o haberin detay ekranına gidecektir. Detay ekranında haber içerikleriyle beraber o haberi web sitesinde açabilen bir buton yer almaktadır.
 </p>
-◉ Eğer api'de aranan kelimenin okunuşu varsa detay ekranının sağ üst köşesindeli hoparlör butonuna basılarak okunuşu dinlenebilmektedir.
-</p>
-◉ Detay ekranında kelimenin özellikleri kategori olarak listelenmektedir. Kullanıcı istediği kategoriyi ya da kategorileri seçerek o kelimeye yönelik filtreleme işlemini gerçekleştirebilir.
+◉ "See in web" butonuna basarak seçili haber web sitesinde görüntülenmektedir. Bu web sitesi uygulamadan çıkılmadan uygulama içerisinde görüntülenmektedir.
 </p>
 ◉ Modülerliği sağlamak adına Generic olarak oluşturduğum Web Paketi olan <b>AhmertNetworkManager</b> projede kullanılarak <b>SPM</b> ile projeye dahil edilmiştir.
 
@@ -41,8 +39,6 @@ Projede servis istekleri için URLSession ile oluşturmuş olduğum <b>AhmertNet
 <li> MVVM mimarisi ile geliştirilmiştir.</br></li>
 <li> URLSession ile oluşturduğum AhmertNetworkManager Package'i kullanılmıştır. </li>
 <li> Tüm UI'lar cihaz rotationuna göre güncellenmektedir.</br></li>
-<li> AVFoundation ile ses oynatımı yapılmıştır.</br></li>
-<li> CoreData ile kullanıcının aramaları kaydedilmektedir.</br></li>
 <li> Proje iOS 13 ve üzerinde çalışmaktadır.</br></li>
 
 
